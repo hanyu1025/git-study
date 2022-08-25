@@ -28,14 +28,23 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
   </div>
+  <button @click="getPdf('app','hanyu')" >下载pdf</button>
 </template>
 
 <script>
+import getPdf from '@/utils/utils.js'
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  }
+  },
+  data(){
+    return {
+      htmltitle: '导出的文件名',
+      getPdf
+    }
+  },
+  
 }
 </script>
 
