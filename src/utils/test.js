@@ -1,6 +1,6 @@
 // let n = parseInt(read_line())
 // let list = gets().split(" ").map(val=>parseInt(val))
-let n = 7
+let n = 6
 let list=[6, 4, 5, 3, 1, 2, 10]
 let record = new Array(n)
 let dist = new Array(n)
