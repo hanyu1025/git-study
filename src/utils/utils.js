@@ -11,7 +11,7 @@ export default function (id,title) {
     let contentHeight = canvas.height
     let pageHeight = contentWidth / 592.28 * 841.89
     let leftHeight = contentHeight
-    let position = 0
+    let position = 1
     let imgWidth = 595.28
     let imgHeight = 592.28 / contentWidth * contentHeight
     let pageData = canvas.toDataURL('image/jpeg', 1.0)
